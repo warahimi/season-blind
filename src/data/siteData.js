@@ -2,7 +2,7 @@ export const brand = {
   name: "Season Blinds",
   subtitle: "Window Covering Supply",
   phone: "+1 (253) 374-0973",
-  email: "seasonblinds25@gmail.com",
+  email: "wahidrahimi45@gmail.com",
   address: "232 Roosevelt Ave, Enumclaw, WA 98022",
 
   colors: {
