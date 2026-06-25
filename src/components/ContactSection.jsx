@@ -317,7 +317,7 @@ const ContactSection = () => {
 
           <div className="rounded-3xl bg-white p-10 shadow-xl">
             <h3 className="text-3xl font-extrabold text-[#5A3827]">
-              Send Us A Message Now
+              Send Us A Message
             </h3>
 
             <form onSubmit={handleSubmit} className="mt-10 space-y-6">
