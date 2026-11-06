@@ -2,15 +2,23 @@ import { useState } from "react";
 import logo from "../assets/logo.jpeg";
 import { brand } from "../data/siteData";
 
+// const navLinks = [
+//   { name: "Home", href: "#home" },
+//   { name: "Products", href: "#products" },
+//   { name: "Gallery", href: "#gallery" },
+//   { name: "Process", href: "#process" },
+//   { name: "About", href: "#about" },
+//   { name: "Contact", href: "#contact" },
+// ];
 const navLinks = [
   { name: "Home", href: "#home" },
   { name: "Products", href: "#products" },
   { name: "Gallery", href: "#gallery" },
+  { name: "Videos", href: "#videos" },
   { name: "Process", href: "#process" },
   { name: "About", href: "#about" },
   { name: "Contact", href: "#contact" },
 ];
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 

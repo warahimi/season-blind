@@ -4,6 +4,8 @@ import GallerySection from "../components/GallerySection";
 import HomeHero from "../components/HomeHero";
 import ProcessSection from "../components/ProcessSection";
 import ProductsSection from "../components/ProductsSection";
+import PhotoGallery from "../components/PhotoGallery";
+import VideoGallery from "../components/VideoGallery";
 import TestimonialsSection from "../components/TestimonialsSection";
 import WhyChooseUs from "../components/WhyChooseUs";
 
@@ -15,6 +17,8 @@ const Home = () => {
       <ProductsSection />
       <WhyChooseUs />
       <GallerySection />
+      <PhotoGallery />
+      <VideoGallery />
       <TestimonialsSection />
       <ContactSection />
       <Footer />
