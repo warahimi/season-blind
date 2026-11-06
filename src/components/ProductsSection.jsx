@@ -1,52 +1,45 @@
 import { brand } from "../data/siteData";
+import zebra_blinds from "../assets/gallary/zebra-blinds.jpeg";
+import roller_shades from "../assets/gallary/roller-shed.jpeg";
+import vertical_dream_blinds from "../assets/gallary/vertical-dream-blinds.jpeg";
+import honeycomb_shades from "../assets/gallary/honeycomb-shades.jpeg";
+import roman_shades from "../assets/gallary/roman-shades.jpeg";
+import drapery_curtains from "../assets/gallary/drapery-curtains.jpeg";
 
 const products = [
   {
     title: "Zebra Blinds",
     description:
       "Modern dual-layer blinds that provide privacy while allowing natural light.",
-    image:
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop",
+    image: zebra_blinds,
   },
   {
     title: "Roller Shades",
     description:
       "Clean and minimal shades perfect for modern homes and offices.",
-    image:
-      "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1200&auto=format&fit=crop",
+    image: roller_shades,
   },
   {
     title: "Vertical Dream Blinds",
     description: "Great solution for sliding doors and large window spaces.",
-    image:
-      "https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200&auto=format&fit=crop",
+    image: vertical_dream_blinds,
   },
   {
     title: "Honeycomb Shades",
     description: "Energy-efficient shades designed for insulation and comfort.",
-    image:
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop",
+    image: honeycomb_shades,
   },
   {
     title: "Roman Shades",
     description:
       "Elegant fabric shades that add warmth and luxury to any room.",
-    image:
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop",
-  },
-  {
-    title: "Faux Wood Blinds",
-    description:
-      "Classic wood-style blinds with moisture resistance and durability.",
-    image:
-      "https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200&auto=format&fit=crop",
+    image: roman_shades,
   },
   {
     title: "Drapery Curtains",
     description:
       "Stylish flowing curtains that add elegance, privacy, and comfort to any space.",
-    image:
-      "https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200&auto=format&fit=crop",
+    image: drapery_curtains,
   },
 ];
 

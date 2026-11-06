@@ -15,7 +15,7 @@ export default async function handler(req, res) {
     }
 
     const { data, error } = await resend.emails.send({
-      from: "Season Blinds <onboarding@resend.dev>",
+      from: "Season Blinds <noreply@resend.dev>",
       to: [process.env.CONTACT_TO_EMAIL],
       subject: `New Free Measurement Request - ${fullName}`,
       html: `

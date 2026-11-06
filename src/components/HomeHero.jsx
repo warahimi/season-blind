@@ -5,7 +5,7 @@ import heroImage from "../assets/hero-blinds.jpeg";
 const HomeHero = () => {
   return (
     //<section className="min-h-screen bg-[#F7F1EA] pt-24">
-    <section id="home" className="min-h-screen bg-[#F7F1EA] pt-24">
+    <section id="home" className="border-3 min-h-screen bg-[#F7F1EA] pt-24">
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 lg:px-8">
         {/* Left Content */}
         <div>
